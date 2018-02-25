@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="384.962890625" prefWidth="495.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.MyController">
+  <!-- TODO Add Nodes -->
+  <children>
+    <Button fx:id="myButton" layoutX="14.0" layoutY="295.0" mnemonicParsing="false" onAction="#showDateTime" text="按钮" />
+    <TextField fx:id="myText" layoutX="100.0" layoutY="294.0" prefWidth="200.0" />
+    <Label fx:id="label1" layoutX="169.0" layoutY="148.0" text="我是label" />
+  </children>
+</AnchorPane>
